@@ -1,0 +1,42 @@
+# Ignorar archivos de compilación de .NET
+bin/
+obj/
+
+# Archivos de configuración de usuario de Visual Studio
+.vs/
+.vscode/
+.idea/
+
+# Archivos de configuración de usuario de Rider
+.idea/
+
+# Archivos de configuración de Visual Studio para Mac
+.vscode/
+
+# Archivos generados por Visual Studio durante la construcción
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+
+# Ignorar el directorio de paquetes
+/packages/
+
+# Archivos temporales generados por NuGet
+*.nupkg
+*.snupkg
+
+# Ignorar archivos de instalación
+*.exe
+*.dll
+*.app
+*.msi
+*.cab
+*.pkg
+
+# Ignorar carpetas de herramientas de .NET Core
+.dnx/
+.dnu/
+.project.lock.json
+project.lock.json
+project.fragment.lock.json
